@@ -1,3 +1,24 @@
+# 🌐 Rahul's CORS Anywhere Proxy
+
+A Node.js proxy that enables Cross-Origin Resource Sharing (CORS) requests, useful for development environments where CORS errors block API calls.
+
+---
+
+## 🚀 Why I Forked This
+
+This is a personalized and updated version of the original [cors-anywhere](https://github.com/Rob--W/cors-anywhere).  
+I'm using it locally (via `pm2`) to allow frontend apps to bypass CORS issues during development.
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Rahul936-git/cors-anywhere.git
+cd cors-anywhere
+npm install
+
+
 [![Build Status](https://travis-ci.com/Rob--W/cors-anywhere.svg?branch=master)](https://travis-ci.com/Rob--W/cors-anywhere)
 [![Coverage Status](https://coveralls.io/repos/github/Rob--W/cors-anywhere/badge.svg?branch=master)](https://coveralls.io/github/Rob--W/cors-anywhere?branch=master)
 
